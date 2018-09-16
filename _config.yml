@@ -1,92 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Govinda Raj
-twitter_username: 511govindaraj
-name: Govinda Raj
-address: Bangalore, India
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-#User specific content
-#Links that will appear in the navbar
-primarylinks:
- - title: LinkedIn
-   url: https://www.linkedin.com/in/govindaraj511/
- - title: Quora
-   url: https://www.quora.com/profile/Govinda-Raj-6
- - title: GitHub
-   url: https://github.com/govinda-raj
- - title: StackOverflow
-   url: https://stackoverflow.com/users/8120682/wolfie
- - title: Medium
-   url: https://medium.com/@govinda_raj
- - title: Facebook
-   url: https://www.facebook.com/511govindaraj
- 
-
-#Any buzzword skills you want to include
-skills:
- - Spring Boot
- - Spring MVC
- - NoSQL
- - Maven/Graddle
- - Java
- - JPA
- - SQL
- - Redis
- - Kafka
- - REST
- - Tech Architecture
-
-#Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: https://medium.com/@govinda_raj
-
-#Work experience is required
-roles:
- - title: Software Engineer
-   start: 2017
-   end: Ongoing
-   employer: Coviam
-   description: Coviam was established as an digital innovative for the development of a number of software and legal-tech projects, and a rapidly growing, Indonessia-based start-up using innovative technologies to revolutionise and change the software and legal-tech landscape. Working with a range of cutting edge technologies and techniques including Java, Block-chain, Data Analysis, a variety of Machine Learning techniques.
- - title: Software Trainee
-   start: 2017
-   end: 2018
-   employer: ArcellorMittal
-   description: ArcelorMittal S.A. is a Luxembourgish multinational steel manufacturing corporation headquartered in Luxembourg. It was formed in 2006 from the takeover and merger of Arcelor by Indian-owned Mittal Steel.
- 
-
-#Education is required
-education:
- - level: Bachelor of Technology (B.Tech)
-   date: 2017
-   subject: Computer Science
-   school: The LNM Institute of Information Technology, Jaipur
- - level: Secondary School ()
-   date: 2017
-   subject: Science
-   school: St. Xaviers Jr/Sr School, Ramna
-
-
-#List of interesting Github repo/projects to include - optional
-github:
- - govinda-raj/Tweet-Analysis
- - govinda-raj/Tour-Planning
- - govinda-raj/e-commerce
-
-
-#Stackoverflow flair is optional
-stackoverflow:
-   profileurl: https://stackoverflow.com/users/8120682/wolfie
-   flairimageurl: https://i.stack.imgur.com/7jE9x.jpg
-
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default
-
-
-#An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
-   <strong>JVM</strong>: I am experienced in a variety of Java API’s and frameworks. I have recently worked with Spring 4, Spring Boot, JPA (Hibernate) in addition to others.  In my current role Java is the primary language used - and I am familiar with many of the languages features. <br/><br/>
-   <strong>Web Development</strong>: My server side web development experience has largely been based on the Spring MVC framework (although current role uses ColdFusion for server side web stack). I have also worked with some client side technology, having used jQuery, Bootstrap, LESS, SASS and have also experimented with other interesting technologies such as Kafka, Redis, Mongo.<br/><br/>
-   <strong>Development Control</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have experience with an array of testing tools and technologies.<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability. <br/><br/>
-   I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="https://medium.com/@govinda_raj/">Govinda Raj's Blogs</a> (I am also a <a target='_blank' href="https://www.quora.com/profile/Govinda-Raj-6">Quoran</a>)
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
