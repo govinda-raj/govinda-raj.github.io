@@ -19,6 +19,8 @@ primarylinks:
    url: https://stackoverflow.com/users/8120682/wolfie
  - title: Medium
    url: https://medium.com/@govinda_raj
+ - title: Facebook
+   url: https://www.facebook.com/511govindaraj
  
 
 #Any buzzword skills you want to include
@@ -36,7 +38,7 @@ skills:
  - Tech Architecture
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
-blogfeed: http://automateddeveloper.blogspot.com/feeds/posts/default?alt=rss
+blogfeed: https://medium.com/@govinda_raj
 
 #Work experience is required
 roles:
@@ -70,8 +72,7 @@ github:
 #Stackoverflow flair is optional
 stackoverflow:
    profileurl: https://stackoverflow.com/users/8120682/wolfie
-   flairimageurl: https://stackoverflow.com/users/8120682/wolfie.png
-
+   flairimageurl: https://i.stack.imgur.com/7jE9x.jpg
 
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
