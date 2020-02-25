@@ -84,9 +84,9 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - govinda-raj/Tweet-Analysis
- - govinda-raj/Tour-Planning
- - govinda-raj/e-commerce
+ # - govinda-raj/Tweet-Analysis
+ # - govinda-raj/Tour-Planning
+ # - govinda-raj/e-commerce
 
 
 #Stackoverflow flair is optional
