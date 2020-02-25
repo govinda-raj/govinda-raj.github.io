@@ -83,7 +83,7 @@ education:
 
 
 #List of interesting Github repo/projects to include - optional
-github:
+#github:
  # - govinda-raj/Tweet-Analysis
  # - govinda-raj/Tour-Planning
  # - govinda-raj/e-commerce
@@ -103,5 +103,4 @@ additionalinfo: |
    <strong>Apache Kafka</strong>: I am very profecient with the library because I really find it interesting. The way it has been developed to make it fault tolerent using multiple brokers, partitions, replicas; are remarkable. The way <strong>Apache Zookeeper</strong> handles kafka brokers and partitions by leader election, helps kafka alot. I have done several projects so far using kafka, kafka stream, kafka connect. For deployemnt of Stream application I used Mesos and Marathon.<br/><br/>
    <strong>Docker and GCP</strong>: I have a good knowledge of application life-cycle management and have worked with SVN, Git, Maven, Gradle, Sonar and Jenkins. I have enough experience of Google Cloud Platform and Docker.<br/><br/>
    I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including React Native, a variety of social APIs (Twitter etc) and cloud platforms such as CloudFoundry/OpenShift/AppFog/Parse. <br/><br/>
-   As part of Nerdability. <br/><br/>
    I write a blog covering technical and opinion articles that can be found here: <a target='_blank' href="https://medium.com/@govinda_raj/">Govinda Raj's Blogs</a> (I am also a <a target='_blank' href="https://www.quora.com/profile/Govinda-Raj-6">Quoran</a>)
